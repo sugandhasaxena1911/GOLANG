@@ -14,11 +14,13 @@ func main() {
 		e = iota + 3
 		f
 		g
+		h
 	)
 	const (
-		h = iota + 3
-		i = iota
-		j = iota
+		i = iota + 3
+		j
+		k = iota
+		l
 	)
 
 	fmt.Printf("the values are %v \t %T", a, a)

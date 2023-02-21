@@ -14,6 +14,7 @@ func main() {
 	//CONVERSION
 	b = suggu(a)
 	b = 100 // directly able to assign without conversion
+	//a = b   erorr
 	a = int(b)
 	fmt.Println("Value of b ", b)
 

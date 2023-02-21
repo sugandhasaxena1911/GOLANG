@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	if true {
+	if true && true {
 		fmt.Println("Hello If")
 	}
 	if x := 2; x == 2 {

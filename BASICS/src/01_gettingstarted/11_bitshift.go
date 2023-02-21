@@ -17,4 +17,7 @@ func main() {
 		mmb = 1 << (iota * 10)
 		ggb = 1 << (iota * 10)
 	)
+	fmt.Printf("the kb %v \t %b\n", kkb, kkb)
+	fmt.Printf("the mb %v \t %b\n", mmb, mmb)
+	fmt.Printf("the gb %v \t %b ", ggb, ggb)
 }
