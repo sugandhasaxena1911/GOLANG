@@ -1,8 +1,8 @@
 package main
 
 import (
-	"EXCERCISES/TUTORIALGATEWAY/ARRAYS/Operations"
 	"fmt"
+	"github.com/sugandhasaxena1911/GOLANG/EXCERCISES/TUTORIALGATEWAY/ARRAYS/Operations"
 )
 
 func main() {
