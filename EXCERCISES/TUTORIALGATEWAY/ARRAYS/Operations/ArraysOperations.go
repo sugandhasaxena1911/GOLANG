@@ -1,9 +1,9 @@
-// Package Operations provides all the operatons that we can do in arryas
+// Package Operations provides all the operations that we can do in Arrays
 package Operations
 
 import "fmt"
 
-// Add2DArray Add the correspoding elements of both arryas and return the new arrya
+// Add2DArray Add the correspoding elements of both arrays and return the new array
 func Add2DArray(arr1, arr2 [][]int) [][]int {
 	arr3 := [][]int{}
 	for i := 0; i < len(arr1); i++ {
@@ -16,7 +16,7 @@ func Add2DArray(arr1, arr2 [][]int) [][]int {
 	return arr3
 }
 
-// Print2DArray Prints the 2d arrya
+// Print2DArray Prints the 2d array
 func Print2DArray(arr1 [][]int) {
 	for i, _ := range arr1 {
 		for _, vv := range arr1[i] {
@@ -38,7 +38,7 @@ func CountDuplicates(sl []int) int {
 	return len(sl) - len(m1)
 }
 
-// EnterMatrix Enter 2d arrya of mentioned rows and columns
+// EnterMatrix Enter 2d array of mentioned rows and columns
 func EnterMatrix(n, m int) [][]int {
 	var num int
 
@@ -57,7 +57,7 @@ func EnterMatrix(n, m int) [][]int {
 
 }
 
-// SumOfEachColumnRow sum of each column and row of 2d arrya
+// SumOfEachColumnRow sum of each column and row of 2d array
 func SumOfEachColumnRow(arr1 [][]int) {
 	for i, _ := range arr1 {
 		sumRow := 0
@@ -123,7 +123,7 @@ func TransposeMatrix(arr1 [][]int) [][]int {
 	return arr2
 }
 
-// CheckIdentity Finds if thr 2d arrya is identity or not
+// CheckIdentity Finds if the 2d array is identity or not
 func CheckIdentity(arr1 [][]int) bool {
 	//var identity bool
 	identity := true
@@ -151,7 +151,7 @@ func CheckIdentity(arr1 [][]int) bool {
 
 }
 
-// InterchangeDiagnols Interchnage the diagnols of the 2d arrya and returns new array
+// InterchangeDiagnols Interchange the diagnols of the 2d array and returns new array
 func InterchangeDiagnols(arr1 [][]int) [][]int {
 	//diag1 : 0,0  1,1   2,2 ..... diag2 : 0,n-1   1,n-1 ....
 	n := len(arr1)
