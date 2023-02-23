@@ -1,4 +1,4 @@
-module BASICS
+module github.com/sugandhasaxena1911/GOLANG/BASICS
 
 go 1.19
 
